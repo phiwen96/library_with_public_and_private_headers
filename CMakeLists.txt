@@ -14,3 +14,4 @@ add_custom_command(TARGET MyLib POST_BUILD
         "${CMAKE_BINARY_DIR}/include/my_lib"
     COMMENT "Copying MyLib public headers to ${CMAKE_BINARY_DIR}/include/my_lib"
     VERBATIM)
+
