@@ -1,0 +1,3 @@
+/Users/pw/Documents/GitHub/my_lib/build/CMakeFiles/rebuild_cache.dir
+/Users/pw/Documents/GitHub/my_lib/build/CMakeFiles/edit_cache.dir
+/Users/pw/Documents/GitHub/my_lib/build/CMakeFiles/MyLib.dir

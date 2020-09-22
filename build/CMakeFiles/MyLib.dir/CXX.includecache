@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pw/Documents/GitHub/my_lib/my_lib.cpp
+my_lib_api.hpp
+/Users/pw/Documents/GitHub/my_lib/my_lib_api.hpp
+
+/Users/pw/Documents/GitHub/my_lib/my_lib_api.hpp
+iostream
+-
+
