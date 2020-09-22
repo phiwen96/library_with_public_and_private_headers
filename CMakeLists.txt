@@ -15,3 +15,12 @@ add_custom_command(TARGET MyLib POST_BUILD
     COMMENT "Copying MyLib public headers to ${CMAKE_BINARY_DIR}/include/my_lib"
     VERBATIM)
 
+
+#/my_lib
+#   - CMakeLists.txt
+#   - src/
+#       - my_lib.cpp
+#       - my_lib_detail.hh
+#   - include/
+#       - my_lib/
+#            - my_lib_api.hh
