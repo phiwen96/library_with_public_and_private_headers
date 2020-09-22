@@ -1,7 +1,7 @@
 project(my_lib)
 cmake_minimum_required(VERSION 3.17.3)  # for 'target_include_directories'
 
-add_library(MyLib SHARED my_lib.cpp my_lib_api.hpp my_lib_detail.hpp)
+add_library(MyLib STATIC my_lib.cpp my_lib_api.hpp my_lib_detail.hpp)
 
 target_include_directories(MyLib INTERFACE "${CMAKE_BINARY_DIR}/include"
                                  PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}")
